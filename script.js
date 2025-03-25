@@ -13,18 +13,24 @@ verificarPar(0);
 
 // este é o segundo exercício
 
-function calcularNumero(numero1,numero2) {
- console.log(numero1 + numero2);
- console.log(numero1 - numero2);
- console.log(numero1 * numero2);
- console.log(numero2 !== 0 ? numero1 / numero2: 'Não pode ser divisível por 0');
+function calcularNumero(numero1, numero2) {
+    console.log(numero1 + numero2);
+    console.log(numero1 - numero2);
+    console.log(numero1 * numero2);
+    console.log(numero2 !== 0 ? numero1 / numero2 : 'Não pode ser divisível por 0');
 }
 
-calcularNumero (10,0)
+calcularNumero(10, 0)
 
 //3º questão
 
-    for (let i = 10; i > 0; i--){
-    console.log (i)
+for (let i = 10; i > 0; i--) {
+    console.log(i)
 }
+
+//4º questão
+
+let original = "JavaScript";
+let invertido = original.split("").reverse().join("");
+console.log(invertido);
 
