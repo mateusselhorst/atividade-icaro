@@ -34,3 +34,10 @@ let original = "JavaScript";
 let invertido = original.split("").reverse().join("");
 console.log(invertido);
 
+//5º questão
+
+function contaCaracter(palavra) {
+    console.log(palavra.length);
+}
+
+contaCaracter("Professor");
