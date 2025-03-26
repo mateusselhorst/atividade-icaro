@@ -57,3 +57,10 @@ function mensagemPersonalizada(nomes){
     console.log("Oi, " + nomes);
 }
 mensagemPersonalizada(prompt("Diga o seu nome"));
+
+//8º questão
+
+function media(n1,n2,n3){
+    console.log( (n1 + n2 + n3)/3);
+}
+media(10,20,30)
