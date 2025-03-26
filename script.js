@@ -50,3 +50,10 @@ modelo: "X1",
 ano: 2010,
 }
 console.log(carro.modelo)
+
+//7º questão
+
+function mensagemPersonalizada(nomes){
+    console.log("Oi, " + nomes);
+}
+mensagemPersonalizada(prompt("Diga o seu nome"));
