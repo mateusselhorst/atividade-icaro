@@ -75,3 +75,13 @@ for (let i = 1; i <= 20; i++) {
     }
 }
 
+//10º questão
+
+function verificarPalindromo(palavra) {
+    palavra = palavra.toLowerCase();
+    let palavraInvertida = palavra.split('').reverse().join('');
+    return palavra === palavraInvertida;
+}
+
+console.log(verificarPalindromo("arara")); 
+console.log(verificarPalindromo("banana"));
