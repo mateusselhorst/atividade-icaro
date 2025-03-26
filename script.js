@@ -41,3 +41,12 @@ function contaCaracter(palavra) {
 }
 
 contaCaracter("Professor");
+
+//6º questão
+
+let carro = {
+    marca: "BMW",
+modelo: "X1",
+ano: 2010,
+}
+console.log(carro.modelo)
